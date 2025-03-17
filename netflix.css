@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-netflixcontainer{
+    border: 2px solid red;
+    padding: 0rcap 2rem;
+    background-color: black;
+}
+
+nav{
+    border: 2px solid
+    green;
+    height: 20vh;
+}
+
+.uppernavbarsection{
+    /*border: 2px solid*/
+    blue;
+    display: flex;
+    height: 50%;
+}
+
+.uppernavbarleftsection{
+    /*border: 2px solid*/
+    red;
+    width: 50%;
+}
+
+.netflixlogo{
+    width: 29%;
+}
+
+.uppernavbarrightsection{
+    /*border: 2px solid*/
+    green;
+    width: 50%;
+}
+
+.navbarbuttoncontainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*border: 2px solid green;*/
+    height: 100%;
+}
+
+.languagebutton{
+    display: flex;
+    padding: .2rem .8rem;
+    border-radius: 50px;
+    background: transparent; 
+    border : 1px solid white;
+    outline: none;
+    color: white;
+}
+
+
+
+.languagebutton p{
+    margin-left: 8px;
+}
+
+.signinbutton{
+    background-color: white;
+    padding: .4rem .8rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+
+
+.lowernavbarsection{
+    border: 2px solid red;
+    height: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.menulist{
+    border: 2px solid green;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
